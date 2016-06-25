@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\android_studio\\day606_tabs\\viewPagerLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__light_theme.xml",
+        "source": "E:\\android_studio\\day606_tabs\\viewPagerLibrary\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "E:\\android_studio\\day606_tabs\\viewPagerLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__dark_theme.xml",
+        "source": "E:\\android_studio\\day606_tabs\\viewPagerLibrary\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__dark_theme.xml"
+    }
+]
