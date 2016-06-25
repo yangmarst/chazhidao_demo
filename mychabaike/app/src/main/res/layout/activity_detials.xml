@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="0dp"
+            android:src="@drawable/ic_launcher"/>
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+
+        android:id="@+id/detial_llout"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#00ff00">
+    <TextView
+        android:id="@+id/detial_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="春节期间加肥饮食学会下面几个技巧"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/detial_tv_keyword"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|left"
+        android:layout_below="@id/detial_tv_title"
+        android:text="饭局 大脑 就会 细嚼慢咽 饭后"
+        android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/detial_tv_time"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/detial_tv_title"
+            android:layout_toRightOf="@id/detial_tv_keyword"
+            android:layout_marginTop="20dp"
+            android:gravity="center|left"
+            android:text="20160624383824243888"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/detial_tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/detial_llout"
+        android:background="#a64dbc"
+        android:textSize="18sp"
+        android:text="稍后从开局从囧按键大激动爱家卡骄傲加到几点几爱家家居阿见炒鸡"/>
+</RelativeLayout>

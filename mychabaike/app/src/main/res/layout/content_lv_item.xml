@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/item_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/item_tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_iv"
+        android:lines="4"
+        android:text="多地出台整合城乡居民医保方案 个人缴费提高 《每日经济新闻》记者注意到，年初国务院发布的《关于整合城乡居民基本医疗保险制度的意见》中明确，" />
+
+    <TextView
+        android:id="@+id/item_tv_res"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/item_tv_desc"
+        android:layout_toRightOf="@id/item_iv"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:text="阅读数:3824"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/item_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/item_tv_res"
+        android:layout_alignTop="@id/item_tv_res"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:text="2016068888888"
+        android:textColor="#2eaf62" />
+</RelativeLayout>

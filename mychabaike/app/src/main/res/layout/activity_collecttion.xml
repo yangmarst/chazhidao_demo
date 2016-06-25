@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/collecttion_iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/collecttion_tv_collecttion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#69989e"
+        android:gravity="center|left"
+        android:text="收藏夹"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/collecttion_tv_collec"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center|left"
+        android:text="收藏夹"
+        android:textSize="24sp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#215359"
+        />
+
+    <TextView
+        android:id="@+id/collecttion_tv_record"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center|left"
+        android:text="浏览记录"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/collecttion_tv_about"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#69989e"
+        android:gravity="center|left"
+        android:text="关于客户端"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/collecttion_tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center|left"
+        android:text="版本信息"
+        android:textSize="24sp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#447c83"
+        />
+
+
+    <TextView
+        android:id="@+id/collecttion_tv_opinion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center|left"
+        android:text="意见反馈"
+        android:textSize="24sp" />
+</LinearLayout>
